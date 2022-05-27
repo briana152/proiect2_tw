@@ -1,7 +1,7 @@
 # proiect2_tw
 #Documentatie rute:
 #
-#
+#nodemon app sa pornesti serveru
 #
 #http://127.0.0.1:3000/ este pagina principala
 #http://127.0.0.1:3000/products este pagina cu manga covers si info despre employee
