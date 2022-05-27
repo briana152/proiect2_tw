@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/static/css/style.css" type="text/css"/>
+        <title>MANGA STORE</title>
+    </head>
+    <body>
+
+        <%- include('../_partial/_header'); -%>
+        <div class="everything">
+            <div class="page-title-div">
+                <h1 class="page-title">HOME PAGE</h1>
+            </div>
+            <button type="button" class="btn-clear">Clear my login</button>
+            <div class="after-container">
+                <p>Are you sure you want to clear your login?</p>
+                <button type="button" class="btn-for-no">no</button>
+                <button type="button" class="btn-for-yes">yes</button>
+            </div>
+            <div class="LogIn-container">
+                <form class="LogIn">
+                    <label for="firstName">FIRST NAME</label><br>
+                    <input type="text" id="firstName" name="firstName" class="LoginData"><br>
+                    <label for="lastName">LAST NAME</label><br>
+                    <input type="text" id="lastName" name="lastName" class="LoginData"><br>
+                    <label for="username">EMPLOYEE USERNAME</label><br>
+                    <input type="text" id="username" name="username" class="LoginData"><br>
+                    <label for="workID">EMPLOYEE ID</label><br>
+                    <input type="text" id="workID" name="workID" class="LoginData"><br>
+                    <button type="submit" class="btn-submit">SIGN IN</button>
+                </form>
+            </div>
+            <button onclick="removeStrawberries()">REMOVE STRAWBERRIES</button>
+        </div>
+
+
+        <script src="/static/js/script.js"></script>
+</body>
+</html>

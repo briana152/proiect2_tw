@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/static/css/style2.css" type="text/css"/>
+        <title>MANGA STORE</title>
+    </head>
+    <body onload="ShowSuggestions()">
+        <%- include('../_partial/_header'); -%>
+        <script src="/static/js/scriptSuggestions.js"></script>
+        <button onclick="Retrimite('')">Back</button>
+        
+        <br>
+        <div id="suggestions-container">
+
+        </div>
+        
+        <div class="div-bnt">
+            <p>If you couldnt find the manga you wanted please leave your suggestions by clicking the button below.</p>
+            <button onclick="Retrimite('create')">SUBMIT A SUGGESTION</button>
+            <br>
+            <p>If u need to update a suggestion click the button below.</p>
+            <button onclick="Retrimite('update')">UPDATE A SUGGESTION</button>
+            <br>
+            <p>If u want to delete a suggestion click the button below.</p>
+            <button onclick="Retrimite('delete')">DELETE A SUGGESTION</button>
+        </div>
+
+</body>
+</html>

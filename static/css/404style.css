@@ -1,0 +1,13 @@
+.diverr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.err{
+    font-size: 50px;
+    color: black;
+}
+.msj{
+    font-size: 40px;
+    color: red;
+}

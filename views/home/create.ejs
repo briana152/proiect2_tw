@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/static/css/style2.css" type="text/css"/>
+        <title>MANGA STORE</title>
+    </head>
+<body>
+    <form id="suggestionform" method="post" action="http://127.0.0.1:3000/create">
+        <p>Any suggestions for a new manga?</p>
+        <br>
+        <label for="suggestionName">Name:</label>
+        <input type="text" name="suggestionName" id="suggestionName">
+        <br>
+        <label for="suggestionVolume">Volume:</label>
+        <input type="text" name="suggestionVolume" id="suggestionVolume">
+        <br>
+        <label for="suggestionGenre">Genre:</label>
+        <input type="text" name="suggestionGenre" id="suggestionGenre">
+        <input type="submit">
+        <br>
+    </form>
+    <button onclick = "Retrimite('suggestions')">Back</button>
+    <script src="/static/js/scriptSuggestions.js"></script>
+</body>
+</html>
