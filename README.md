@@ -15,5 +15,4 @@
 #http://127.0.0.1:3000/mangas/fantasy manga de fantasy
 #http://127.0.0.1:3000/mangas/slice-of-life manga de slice-of-life
 #
-#
-#cre ca atat idk
+
